@@ -5,5 +5,5 @@ assignments
 <h2>Contributors<h2>
 <ul>
     <li>Richard Krasso </li>
-    <li>Rodrigo Piccardo dd</li>
+    <li>Rodrigo Piccardo </li>
  </ul>
