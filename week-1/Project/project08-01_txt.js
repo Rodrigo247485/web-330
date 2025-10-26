@@ -12,12 +12,6 @@
 
 /*--------------- Object Code --------------------*/
 
-
-
-
-
-
-
 /*---------------Interface Code -----------------*/
 "use strict";
 
@@ -33,7 +27,7 @@ function Timer(min, sec) {
 }
 
 // runPause method on Timer prototype
-Timer.prototype.runPause = function(timer, minBox, secBox) {
+Timer.prototype.runPause = function (timer, minBox, secBox) {
   if (timer.timeID) {
     // Timer is running; pause it
     clearInterval(timer.timeID);
@@ -62,15 +56,15 @@ Timer.prototype.runPause = function(timer, minBox, secBox) {
 const myTimer = new Timer(Number(minBox.value), Number(secBox.value));
 
 // Update timer when input boxes change
-minBox.onchange = function() {
+minBox.onchange = function () {
   myTimer.minutes = Number(minBox.value);
 };
 
-secBox.onchange = function() {
+secBox.onchange = function () {
   myTimer.seconds = Number(secBox.value);
 };
 
 // Run/pause timer when button is clicked
-runPauseTimer.onclick = function() {
+runPauseTimer.onclick = function () {
   myTimer.runPause(myTimer, minBox, secBox);
 };
