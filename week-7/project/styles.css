@@ -1,0 +1,53 @@
+/*
+  Pragmatic JavaScript
+  Chapter 3
+  Programming Assignment
+
+  Author: Rodrigo Piccardo
+  Date: 12/07/2025
+  Filename: styles.css
+*/
+
+/* Add your CSS styles here */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+/* Chef card container */
+.chef-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 300px;
+}
+
+/* Add spacing and styling to headings inside chef cards */
+.chef-container h2 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+/* Paragraph styles for chef info */
+.chef-container p {
+  margin: 5px 0;
+  line-height: 1.4;
+  color: #555;
+}
+
+/* Error messages */
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
