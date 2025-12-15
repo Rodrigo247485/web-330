@@ -1,0 +1,92 @@
+/*
+  Pragmatic JavaScript
+  Chapter 4
+  Programming Assignment
+
+  Author: Rodrigo Piccardo
+  Date: 12/14/2025
+  Filename: styles.css
+*/
+
+/* Add your styles here */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 30px 40px;
+  margin-top: 50px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+
+#movie-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#title-input {
+  padding: 10px 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+#title-input:focus {
+  border-color: #007bff;
+}
+
+#movie-form button {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#movie-form button:hover {
+  background-color: #0056b3;
+}
+
+#movie-info {
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+#movie-info h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 22px;
+  color: #333;
+}
+
+#movie-info p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+#error-message {
+  margin-top: 15px;
+  color: #d9534f;
+  font-weight: bold;
+  text-align: center;
+}
